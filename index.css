@@ -1,0 +1,68 @@
+.section-first {
+    background-image: url("nichinan.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 750px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+.global-header {
+    padding: 30px;
+}
+
+.global-header__logo {
+        display: inline-block;
+}
+
+.global-header__logo img{
+    float: left;
+    width: 150px;
+}
+
+.global-header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.global-header-nav {
+     overflow: hidden;
+     float: right;
+}
+
+.global-header-nav__list {
+    list-style: none;
+     margin-top: 0;
+}
+.global-header-nav__item {
+   float: left;
+}
+
+.global-header-nav__item a {
+    padding-left: 40px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding-top: 22%;
+}
+
+.container h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: white;
+}
+.container button {
+    padding: 15px 40px;
+    background-color: #3bc492;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
